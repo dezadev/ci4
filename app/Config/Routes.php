@@ -2,6 +2,8 @@
 
 namespace Config;
 
+use CodeIgniter\Commands\Utilities\Routes;
+
 // Create a new instance of our RouteCollection class.
 $routes = Services::routes();
 
@@ -33,7 +35,11 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Pages::index');
 
-$routes->get('/Komik/(:segment)', 'Komik::detail/$1');
+$routes->delete('/orang/(:num)', 'orang::delete/$1');
+
+$routes->get('/Komik/(:any)', 'Komik::detail/$1');
+
+
 
 // $routes->get('/news', 'News::index');
 // $routes->get('/news/(:any)', 'News::viewNews/$1');

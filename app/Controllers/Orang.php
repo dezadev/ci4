@@ -34,4 +34,50 @@ class Orang extends BaseController
 
         return view('orang/index', $data);
     }
+
+    public function create()
+    {
+        $data = [
+            'title' => 'create | deZadev',
+            'validation' => \Config\Services::Validation()
+        ];
+
+        return view('orang/create', $data);
+    }
+
+    public function save()
+    {
+        //validasi input
+        if (!$this->validate([
+            'nama' => 'required[orang.nama]',
+            'alamat' => 'required[orang.alamat]',
+            'email' => [
+                'rules' => 'required|is_unique[orang.email]',
+                'errors' => [
+                    'required' => '{field} harus di isi',
+                    'is_unique' => '{field} sudah ada'
+                ]
+            ]
+        ])) {
+            $validation = \Config\Services::Validation();
+            return redirect()->to('/orang/create')->withInput()->with('validation', $validation);
+        }
+
+        // dd($this->request->getVar());
+        $this->orangModel->save([
+            'nama' => $this->request->getVar('nama'),
+            'alamat' => $this->request->getVar('alamat'),
+            'email' => $this->request->getVar('email')
+        ]);
+
+        session()->setFlashdata('pesan', 'data berhasil di tambah');
+        return redirect()->to('/orang');
+    }
+
+    public function delete($id)
+    {
+        $this->orangModel->delete($id);
+
+        return redirect()->to('/orang');
+    }
 }

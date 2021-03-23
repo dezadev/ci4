@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-4">
-            <h1 class="mt-2">Daftar Orang</h1>
+            <h2 class="mt-2">Daftar Orang</h2>
             <form action="" method="POST">
                 <!-- pencarian -->
                 <div class="input-group mt-4">
@@ -15,11 +15,19 @@
             </form>
         </div>
     </div>
+    <div class="col my-3">
+        <a href="/orang/create" class="btn btn-sm btn-success">Tambah</a>
+    </div>
+    <?php if (session()->getFlashdata('pesan')) : ?>
+        <div class="alert alert-success" role="alert">
+            <?= session()->getFlashdata('pesan'); ?>
+        </div>
+    <?php endif; ?>
     <div class="col">
         <div class="row">
             <table class="table">
                 <thead>
-                    <tr>
+                    <tr class="table-success">
                         <th scope="col">No</th>
                         <th scope="col">Nama</th>
                         <th scope="col">Alamat</th>
@@ -46,11 +54,20 @@
                                         <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
                                     </svg>
                                 </a>
-                                <a href="" class="btn btn-sm btn-danger">
+                                <!-- <a href="/orang/delete/<?= $o['id']; ?>" class="btn btn-sm btn-danger">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
                                         <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
                                     </svg>
-                                </a>
+                                </a> -->
+                                <form action="/orang/<?= $o['id']; ?>" method="POST" class="d-inline">
+                                    <button type="submit" class="btn btn-sm btn-danger">
+                                        <?= csrf_field(); ?>
+                                        <input type="hidden" name="_method" value="DELETE">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                                        </svg>
+                                    </button>
+                                </form>
                             </td>
                         </tr>
                     <?php endforeach; ?>
