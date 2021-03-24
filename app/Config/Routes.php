@@ -34,7 +34,7 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Pages::index');
-
+// $routes->get('/orang/edit/{id}', 'Orang::edit/$1');
 $routes->delete('/orang/(:num)', 'orang::delete/$1');
 
 $routes->get('/Komik/(:any)', 'Komik::detail/$1');

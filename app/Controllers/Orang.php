@@ -77,7 +77,58 @@ class Orang extends BaseController
     public function delete($id)
     {
         $this->orangModel->delete($id);
-
+        session()->setFlashdata('pesan', 'data berhasil di hapus');
         return redirect()->to('/orang');
+    }
+
+
+    public function edit($id)
+    {
+        $data = [
+            'title' => 'edit | deZadev',
+            'validation' => \Config\Services::Validation(),
+            'orang' => $this->orangModel->getOrang($id)
+        ];
+
+        return view('orang/edit', $data);
+    }
+
+
+    public function update($id)
+    {
+        // if (!$this->validate([
+        //     'nama' => 'required[orang.nama]',
+        //     'alamat' => 'required[orang.alamat]',
+        //     'email' => [
+        //         'rules' => 'required|is_unique[orang.email]',
+        //         'errors' => [
+        //             'required' => '{field} harus di isi',
+        //             'is_unique' => '{field} sudah ada'
+        //         ]
+        //     ]
+        // ])) {
+        //     $validation = \Config\Services::Validation();
+        //     return redirect()->to('orang/edit/' . $this->request->getVar('id'))->withInput()->with('validation', $validation);
+        // }
+
+        $this->orangModel->save([
+            'id' => $id,
+            'nama' => $this->request->getVar('nama'),
+            'alamat' => $this->request->getVar('alamat'),
+            'email' => $this->request->getVar('email')
+        ]);
+
+        session()->setFlashdata('pesan', 'data berhasil di ubah');
+        return redirect()->to('/orang');
+    }
+
+    public function detail($id)
+    {
+        $data = [
+            'title' => 'detail | deZadev',
+            'orang' => $this->orangModel->getOrang($id)
+        ];
+
+        return view('orang/detail', $data);
     }
 }
