@@ -1,0 +1,163 @@
+CRITICAL - 2021-03-16 00:07:39 --> Invalid file: pages/layout.php
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/layout.ph...')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/layout', Array, true)
+#2 E:\laragon\www\ci4\app\Controllers\Pages.php(47): view('pages/layout', Array)
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->layout()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-16 01:43:07 --> Too few arguments to function App\Controllers\Komik::detail(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Komik->detail()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-16 01:45:03 --> Too few arguments to function App\Controllers\Komik::detail(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Komik->detail()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-16 01:45:37 --> Too few arguments to function App\Controllers\Komik::detail(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Komik->detail()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-16 01:45:38 --> Too few arguments to function App\Controllers\Komik::detail(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Komik->detail()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-16 01:45:42 --> Too few arguments to function App\Controllers\Komik::detail(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Komik->detail()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-16 01:46:13 --> Too few arguments to function App\Controllers\Komik::detail(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Komik->detail()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-16 02:15:12 --> syntax error, unexpected '}'
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('komik/naruto')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('komik/naruto')
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-16 02:15:36 --> syntax error, unexpected 'dd' (T_STRING), expecting ';' or '{'
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('komik/naruto')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('komik/naruto')
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-16 20:24:19 --> Undefined index: slug
+#0 E:\laragon\www\ci4\app\Views\komik\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\laragon\\www\\...', 25, Array)
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\laragon\\www\\...')
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('komik/index', Array, true)
+#4 E:\laragon\www\ci4\app\Controllers\Komik.php(23): view('komik/index', Array)
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Komik->index()
+#6 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-16 20:45:30 --> Cannot declare class App\Database\Seeds\SimpleSeeder, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-03-16 20:59:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1, 2) VALUES (('abid','jl.semarang no 123','2021-03-16 20:59:52','2021-03-16 ' at line 1 in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `or...')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\laragon\www\ci4\app\Database\Seeds\OrangSeeder.php(38): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Database\Seeder.php(171): App\Database\Seeds\OrangSeeder->run()
+#6 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(83): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(932): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed', 'OrangSeeder')
+#11 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#14 E:\laragon\www\ci4\spark(66): CodeIgniter\CLI\Console->run()
+#15 {main}
+CRITICAL - 2021-03-16 23:07:09 --> syntax error, unexpected '.'
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#2 E:\laragon\www\ci4\app\Controllers\Pages.php(13): view('pages/home', Array)
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-16 23:26:19 --> Call to undefined method App\Models\OrangModel::fineAll
+#0 E:\laragon\www\ci4\app\Controllers\Orang.php(20): CodeIgniter\Model->__call('fineAll', Array)
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->index()
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-16 23:33:16 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ']'
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('orang/index')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('orang/index')
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-16 23:33:38 --> Undefined property: App\Controllers\Orang::$OrangModel
+#0 E:\laragon\www\ci4\app\Controllers\Orang.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\laragon\\www\\...', 22, Array)
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->index()
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-16 23:33:39 --> Undefined property: App\Controllers\Orang::$OrangModel
+#0 E:\laragon\www\ci4\app\Controllers\Orang.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\laragon\\www\\...', 22, Array)
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->index()
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-16 23:35:03 --> Undefined property: App\Controllers\Orang::$OrangModel
+#0 E:\laragon\www\ci4\app\Controllers\Orang.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\laragon\\www\\...', 22, Array)
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->index()
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-16 23:57:10 --> Undefined variable: curenPage
+#0 E:\laragon\www\ci4\app\Views\orang\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\laragon\\www\\...', 18, Array)
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\laragon\\www\\...')
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('orang/index', Array, true)
+#4 E:\laragon\www\ci4\app\Controllers\Orang.php(27): view('orang/index', Array)
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->index()
+#6 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#10 {main}

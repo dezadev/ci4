@@ -1,0 +1,285 @@
+CRITICAL - 2021-03-23 01:23:41 --> syntax error, unexpected '}', expecting ';'
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('orang/index')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('orang/index')
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-23 01:31:58 --> Invalid file: create.php
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('create.php')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('create', Array, true)
+#2 E:\laragon\www\ci4\app\Controllers\Orang.php(40): view('create')
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->create()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-23 01:32:15 --> Invalid file: create.php
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('create.php')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('create', Array, true)
+#2 E:\laragon\www\ci4\app\Controllers\Orang.php(40): view('create')
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->create()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-23 01:36:15 --> Invalid file: create.php
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('create.php')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('create', Array, true)
+#2 E:\laragon\www\ci4\app\Controllers\Orang.php(44): view('create', Array)
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->create()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-23 01:36:16 --> Invalid file: create.php
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('create.php')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('create', Array, true)
+#2 E:\laragon\www\ci4\app\Controllers\Orang.php(44): view('create', Array)
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->create()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-23 02:03:41 --> syntax error, unexpected '}', expecting ';'
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('orang/create')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('orang/create')
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-23 02:04:38 --> Undefined variable: curentPage
+#0 E:\laragon\www\ci4\app\Views\orang\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\laragon\\www\\...', 34, Array)
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\laragon\\www\\...')
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('orang/index', Array, true)
+#4 E:\laragon\www\ci4\app\Controllers\Orang.php(57): view('orang/index')
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->save()
+#6 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-23 02:18:56 --> syntax error, unexpected 'return' (T_RETURN)
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('orang')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('orang')
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-23 02:36:19 --> syntax error, unexpected ''validation'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('orang/create')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('orang/create')
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-23 03:17:29 --> syntax error, unexpected ')', expecting variable (T_VARIABLE)
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('orang/create')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('orang/create')
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-23 03:18:19 -->  route cannot be found while reverse-routing.
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\laragon\www\ci4\app\Controllers\Orang.php(81): redirect('/orang')
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->delete('154')
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-23 03:20:48 -->  route cannot be found while reverse-routing.
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\laragon\www\ci4\app\Controllers\Orang.php(81): redirect('/orang')
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->delete('154')
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-23 03:22:26 -->  route cannot be found while reverse-routing.
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\laragon\www\ci4\app\Controllers\Orang.php(81): redirect('/orang')
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->delete('154')
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-23 03:22:33 -->  route cannot be found while reverse-routing.
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\laragon\www\ci4\app\Controllers\Orang.php(81): redirect('/orang')
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->delete('153')
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-23 03:47:32 -->  route cannot be found while reverse-routing.
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\laragon\www\ci4\app\Controllers\Orang.php(81): redirect('/orang')
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->delete('153')
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-23 03:47:43 -->  route cannot be found while reverse-routing.
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\laragon\www\ci4\app\Controllers\Orang.php(81): redirect('/orang')
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->delete('152')
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-23 21:52:08 --> Call to undefined method App\Models\OrangModel::getOrang
+#0 E:\laragon\www\ci4\app\Controllers\Orang.php(90): CodeIgniter\Model->__call('getOrang', Array)
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit('1')
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-23 22:36:16 --> Trying to access array offset on value of type null
+#0 E:\laragon\www\ci4\app\Views\orang\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'E:\\laragon\\www\\...', 9, Array)
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\laragon\\www\\...')
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('orang/edit', Array, true)
+#4 E:\laragon\www\ci4\app\Controllers\Orang.php(93): view('orang/edit', Array)
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit('1')
+#6 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-23 22:37:47 --> Too few arguments to function App\Controllers\Orang::edit(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-23 22:39:00 --> Too few arguments to function App\Controllers\Orang::edit(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-23 22:39:49 --> Too few arguments to function App\Controllers\Orang::edit(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-23 22:40:00 --> Too few arguments to function App\Controllers\Orang::edit(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-23 22:40:54 --> Too few arguments to function App\Models\OrangModel::getOrang(), 0 passed in E:\laragon\www\ci4\app\Controllers\Orang.php on line 90 and exactly 1 expected
+#0 E:\laragon\www\ci4\app\Controllers\Orang.php(90): App\Models\OrangModel->getOrang()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit()
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-23 22:41:33 --> Too few arguments to function App\Controllers\Orang::edit(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-23 22:41:34 --> Too few arguments to function App\Controllers\Orang::edit(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-23 22:42:31 --> Too few arguments to function App\Controllers\Orang::edit(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-23 23:22:26 --> Too few arguments to function App\Controllers\Orang::edit(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-23 23:22:44 --> Too few arguments to function App\Controllers\Orang::edit(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-23 23:23:20 --> Too few arguments to function App\Controllers\Orang::edit(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-23 23:28:30 --> Too few arguments to function App\Controllers\Orang::edit(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-23 23:28:57 --> Too few arguments to function App\Controllers\Orang::edit(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-23 23:29:05 --> Too few arguments to function App\Controllers\Orang::edit(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-23 23:46:14 --> Too few arguments to function App\Controllers\Orang::edit(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-03-23 23:46:22 --> Too few arguments to function App\Controllers\Orang::edit(), 0 passed in E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Orang->edit()
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#5 {main}

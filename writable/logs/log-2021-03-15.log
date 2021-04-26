@@ -1,0 +1,58 @@
+CRITICAL - 2021-03-15 23:31:14 --> syntax error, unexpected '}', expecting ';'
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('pages/index')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('pages/index')
+#2 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-15 23:33:21 --> Invalid file: pages/layout.php
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/layout.ph...')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/layout', Array, true)
+#2 E:\laragon\www\ci4\app\Controllers\Pages.php(44): view('pages/layout')
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->layout()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-15 23:34:31 --> Invalid file: pages/layout.php
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/layout.ph...')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/layout', Array, true)
+#2 E:\laragon\www\ci4\app\Controllers\Pages.php(47): view('pages/layout', Array)
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->layout()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-15 23:34:32 --> Invalid file: pages/layout.php
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/layout.ph...')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/layout', Array, true)
+#2 E:\laragon\www\ci4\app\Controllers\Pages.php(47): view('pages/layout', Array)
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->layout()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-15 23:34:33 --> Invalid file: pages/layout.php
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/layout.ph...')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/layout', Array, true)
+#2 E:\laragon\www\ci4\app\Controllers\Pages.php(47): view('pages/layout', Array)
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->layout()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-15 23:34:35 --> Invalid file: pages/layout.php
+#0 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/layout.ph...')
+#1 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/layout', Array, true)
+#2 E:\laragon\www\ci4\app\Controllers\Pages.php(47): view('pages/layout', Array)
+#3 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->layout()
+#4 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\laragon\www\ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\laragon\www\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\laragon\\www\\...')
+#8 {main}
